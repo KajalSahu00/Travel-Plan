@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-9g#nd2f-mb!3fzg^m0b4922z*fz5w=e4doojyy%th*g7q9p23o
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'leasttimetravelplan.herokuapp.com'
+    'leasttimetravelplan.herokuapp.com', '127.0.0.1'
 ]
 
 
