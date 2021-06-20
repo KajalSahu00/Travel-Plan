@@ -25,9 +25,11 @@ TEMPLATES_DIRS = BASE_DIR / 'templates'
 SECRET_KEY = 'django-insecure-9g#nd2f-mb!3fzg^m0b4922z*fz5w=e4doojyy%th*g7q9p23o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'leasttimetravelplan.herokuapp.com'
+]
 
 
 # Application definition
